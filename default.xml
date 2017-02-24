@@ -69,20 +69,12 @@
 <!-- End AOSiP -->
 
  <!-- AospExtended -->
-
-  </project>
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="ex" />
->
   <project path="packages/apps/Extensions" name="platform_packages_apps_Extensions" groups="pdk-fs" remote="ex" />
   <project path="packages/apps/AEXOTA" name="platform_packages_apps_AEXOTA" groups="pdk-fs" remote="ex" />
   <project path="packages/apps/AEXPapers" name="platform_packages_apps_AEXPapers" groups="pdk-fs" remote="ex" />
->
-
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="ex" />
-
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="ex" />
- 
-
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="ex" />
   <project path="art" name="platform_art" groups="pdk" remote="ex" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="ex" />
